@@ -11,25 +11,25 @@ export default class Example extends Component {
     console.log('_onScale', event.nativeEvent);
   };
   _onTap = (event) => {
-      console.log('_onTap', event.nativeEvent);
+    console.log('_onTap', event.nativeEvent);
   };
   _onViewTap = (event) => {
-      console.log('_onViewTap', event.nativeEvent);
+    console.log('_onViewTap', event.nativeEvent);
   };
   _onLoadStart = (event) => {
-      console.log('_onLoadStart', event.nativeEvent);
+    console.log('_onLoadStart', event.nativeEvent);
   };
   _onLoad = (event) => {
-      console.log('_onLoad', event.nativeEvent);
+    console.log('_onLoad', event.nativeEvent);
   };
   _onLoadEnd = (event) => {
-      console.log('_onLoadEnd', event.nativeEvent);
+    console.log('_onLoadEnd', event.nativeEvent);
   };
   render() {
     return (
       <View style={styles.container}>
         <PhotoView
-          source={{uri: "https://facebook.github.io/react/img/logo_og.png"}}
+          source={{ uri: "https://facebook.github.io/react/img/logo_og.png" }}
           onScale={this._onScale}
           onTap={this._onTap}
           onViewTap={this._onViewTap}
@@ -51,7 +51,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: '#000',
   },
   photo: {
     width: 300,
